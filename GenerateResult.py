@@ -41,6 +41,6 @@ def generate_result(test_file):
     result_data.to_csv('result.csv',  index=False,encoding='utf-8',sep ='|',header =['id','ret'])
 
 if __name__ == '__main__':
-    test_file = './proceed/test_data.csv'
+    test_file = 'processed/test_data.csv'
     generate_result(test_file)
 
