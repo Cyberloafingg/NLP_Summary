@@ -9,7 +9,7 @@
 pip install -r requirements.txt
 ```
 ## 运行说明
-1. 新建path/to/data文件夹,将数据集放在data文件夹下
+1. 新建path/to/data文件夹,将数据集放在data文件夹下[数据集连接](https://www.datafountain.cn/competitions/536/datasets)
 2. 新建path/to/model文件夹，用于保存模型，将训练好的第一个PEGASUS模型[百度网盘（链接）](https://pan.baidu.com/s/1vhIM_xKbXCyYnAfT5cn9Tw?pwd=0000 )保存在model文件夹的checkpoints1文件夹下，作为迭代生成所使用的模型
 3. 运行DataPreprocessing.ipynb笔记本，生成预处理数据将在processed文件夹中
 4. 运行train.ipynb笔记本，训练模型
