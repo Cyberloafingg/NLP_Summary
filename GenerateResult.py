@@ -29,6 +29,7 @@ def generate_result(test_file):
     model.eval()
     tokenizer = PegasusChineseTokenizer.from_pretrained('checkpoints')
     result_data=pd.DataFrame()
+    # 测试一个句子的推理
     infer("今天天气不错", model, tokenizer)
     idx = 0
     test_lines=read_test_data(test_file)
